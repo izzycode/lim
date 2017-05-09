@@ -1,0 +1,26 @@
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_production
+  username: postgres
+  password:
+  host: localhost
+  port: 5432
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_development
+  username: postgres
+  password:
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_test
+  username: postgres
+  password:
+  host: localhost
+  port: 5432
