@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 # parse urls: https://github.com/sparklemotion/nokogiri
 gem 'nokogiri'
 
+# Used to create micro services in charge of one specific service. Read more: https://github.com/collectiveidea/interactor-rails
+gem 'interactor-rails', '~> 2.0'
+
 # Gem for paginate. Read more: https://github.com/kaminari/kaminari
 gem 'kaminari'
 
